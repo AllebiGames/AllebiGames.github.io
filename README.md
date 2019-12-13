@@ -1,3 +1,4 @@
 ## Welcome
 
+<index>
 test :coffee:
