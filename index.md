@@ -1,6 +1,4 @@
----
-layout: home 
----
+[Link to another page](./JigsawPuzzle-Kit.md).
 
 # Jigsaw Puzzle  Kit
 
