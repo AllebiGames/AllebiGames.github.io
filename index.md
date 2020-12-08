@@ -1,4 +1,4 @@
-[Link to another page](./JigsawPuzzle-Kit.md).
+[Link to another page](./puzzle-kit.md).
 
 # Jigsaw Puzzle  Kit
 
