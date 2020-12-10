@@ -1,5 +1,4 @@
-layout: default
-title: Puzzle Kit
+[< MAIN](./index.md)
 
 #JigsawPuzzle Kit test page
 
