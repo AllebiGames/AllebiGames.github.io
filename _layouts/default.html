@@ -14,8 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
+  
   <body>
-
       <header>
         <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
@@ -34,18 +34,23 @@
             </ul>
           </div>
         {% endif %}
-      </div><!-- end banner -->
-
-    
-         <div class="downloads">
+        
+           <div class="downloads">
             <span>ASSETS1:</span>
             <ul>
               <li><a href="puzzle-kit.html" class="button fork">Puzzle Kit</a></li>
               <li><a href="easy-map.html" class="button">Easy Map</a></li>
             </ul>
           </div>
+        
+      </div><!-- end banner -->
+
     
-             <div class="banner">
+    
+    
+    <div class="wrapper">
+      
+         <div class="downloads">
             <span>ASSETS2:</span>
             <ul>
               <li><a href="puzzle-kit.html" class="button fork">Puzzle Kit</a></li>
@@ -53,16 +58,27 @@
             </ul>
           </div>
     
-    <div class="wrapper">
-         <div class="downloads">
+
+      
+      <nav>
+          <div class="banner">
             <span>ASSETS3:</span>
             <ul>
               <li><a href="puzzle-kit.html" class="button fork">Puzzle Kit</a></li>
               <li><a href="easy-map.html" class="button">Easy Map</a></li>
             </ul>
           </div>
-    
-             <div class="banner">
+        
+        <ul></ul>
+      </nav>
+      
+      
+      <section>
+        {{ content }}
+      </section>
+      
+      
+        <div class="banner">
             <span>ASSETS4:</span>
             <ul>
               <li><a href="puzzle-kit.html" class="button fork">Puzzle Kit</a></li>
@@ -70,36 +86,13 @@
             </ul>
           </div>
       
-      <nav>
-          <div class="downloads">
-            <span>ASSETS5:</span>
-            <ul>
-              <li><a href="puzzle-kit.html" class="button fork">Puzzle Kit</a></li>
-              <li><a href="easy-map.html" class="button">Easy Map</a></li>
-            </ul>
-          </div>
-        <ul></ul>
-      </nav>
-      
-      
-      <section>
-          <div class="downloads">
-            <span>ASSETS:</span>
-            <ul>
-              <li><a href="puzzle-kit.html" class="button fork">Puzzle Kit</a></li>
-              <li><a href="easy-map.html" class="button">Easy Map</a></li>
-            </ul>
-          </div>
-        {{ content }}
-      </section>
-      
-      
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
       </footer>
+      
     </div>
 
     {% if site.google_analytics %}
