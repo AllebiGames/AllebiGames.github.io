@@ -71,7 +71,7 @@ strong {
 
 .wrapper {
   padding: 0 20px;
-  margin: 0 auto;
+  margin: 0;
   position: relative;
   top: 0;
   left:150px;
@@ -236,7 +236,7 @@ header {
 	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
       
    left: -10px;
-    margin-left: 5px;
+    margin-left: -5px;
 	    
     padding: 5px 12px;
     margin-top: 6px;
@@ -264,7 +264,7 @@ header {
 
 
 #banner {
-  z-index: 100;
+  z-index: 400;
   left:0;
   right:50%;
   height: 5px;
