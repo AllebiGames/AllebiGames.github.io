@@ -13,7 +13,7 @@ body {
   font-weight:300;
   margin: 0px;
   padding:0px 0 20px 0px;
-  background: url(assets/images/background.png) #eae6d1;
+  background: url('background.png') #eae6d1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -148,7 +148,7 @@ dt {
 }
 
 header {
-  padding: 25px 20px 40px 20px;
+  padding: 25px 20px 30px 20px;
   margin: 0;
   position: fixed;
   top: 0;
@@ -156,11 +156,11 @@ header {
   right:0;
   width: 100%;
   text-align: center;
-  background: url(assets/images/background.png) #4276b6;
+  background: url('background.png') #303030;
   box-shadow: 1px 0px 2px rgba(0,0,0,.75);
   z-index:99;
   -webkit-font-smoothing:antialiased;
-  min-height: 66px;
+  min-height: 50px;
 
   h1 {
     font: 40px/48px 'Copse', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -179,6 +179,17 @@ header {
     text-shadow:rgba(#000, 0.2) 0 1px 0;
     font-size: 18px;
     margin: 0px;
+  }
+  
+  
+    #logo {
+    position:absolute;
+    height: 36px;
+    width: 36px;
+    right:7px;
+    top:7px;
+    display: block;
+    background: url(../images/octocat-logo.svg);
   }
 }
 
