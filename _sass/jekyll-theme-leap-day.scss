@@ -70,10 +70,13 @@ strong {
 }
 
 .wrapper {
-  padding:10px 20px 30px 40px;
-  width:500px;
+  padding:0px 100px 50px 200px;
+  width:400px;
   margin:0 auto;
   position:relative;
+  top: 400px;
+  left:0;
+  right:0;
 }
 
 section img {
@@ -151,7 +154,7 @@ dt {
 header {
   padding: 25px 20px 30px 20px;
   margin: 0;
-  position: fixed;
+  position:relative;
   top: 0;
   left:0;
   right:0;
@@ -161,7 +164,7 @@ header {
   box-shadow: 1px 0px 2px rgba(0,0,0,.75);
   z-index:99;
   -webkit-font-smoothing:antialiased;
-  min-height: 50px;
+  min-height: 45px;
 
   h1 {
     font: 40px/48px 'Copse', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -205,11 +208,9 @@ header {
 
 #mmenu {
   z-index: 100;
-  left:5;
+  left:0;
   right:75%;
   height: 150px;
-  margin-left:38px;
-  margin-right:-38px;
   position: fixed;
   top: 220px;
   background: #303030;
@@ -220,7 +221,7 @@ header {
   
     .button {
    background: #AF0011;
-	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
+   background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
   background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
   background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
@@ -239,14 +240,19 @@ header {
     margin-top: 6px;
     line-height:14px;
     font-size:14px;
-    color:#333;
+    color:#dddddd;
     font-weight: bold;
     display:inline-block;
     text-align:center;
 
     &:hover {
-      background: linear-gradient(rgb(255, 231, 136), rgb(255, 231, 136));
-      background-color: #ffeca0;
+	background: #C3001D;
+	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
+  background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
+  background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
+  background: linear-gradient(to top, #C3001D 0%,#950119 100%);
     }
   }
   
