@@ -235,9 +235,10 @@ header {
 	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
 	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
       
-   left: -10px;
+    left: -10px;
     margin-left: -5px;
 	    
+   width: 100px;	    
     padding: 5px 12px;
     margin-top: 6px;
     line-height:14px;
@@ -249,6 +250,7 @@ header {
 
     &:hover {
 	 padding: 5px 20px;
+	    width: 120px;
 	    left:0;
 	background: #C3001D;
 	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
