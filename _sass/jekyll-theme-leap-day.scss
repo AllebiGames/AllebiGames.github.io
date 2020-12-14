@@ -70,12 +70,9 @@ strong {
 }
 
 .wrapper {
-  padding: 50px 120px;
-  margin: 150px auto;
-  position: relative;
-  top: 0;
-  left:160px;
-  right: 50px;
+  width:650px;
+  margin:0 auto;
+  position:relative;
 }
 
 section img {
@@ -250,7 +247,7 @@ header {
 
     &:hover {
 	 padding: 5px 20px;
-	    width: 150px;
+	    width: 145px;
 	    left:0;
 	background: #C3001D;
 	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
