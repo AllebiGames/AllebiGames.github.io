@@ -74,7 +74,7 @@ strong {
   margin: 0 auto;
   position: relative;
   top: 0;
-  left:150px;
+  left:160px;
   right: 50px;
 }
 
@@ -210,7 +210,7 @@ header {
 #mmenu {
   z-index: 100;
   left:0;
-  width: 150px;	
+  width: 147px;	
   height: 150px;
   position: fixed;
   top: 125px;
@@ -250,7 +250,7 @@ header {
 
     &:hover {
 	 padding: 5px 20px;
-	    width: 160px;
+	    width: 150px;
 	    left:0;
 	background: #C3001D;
 	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
