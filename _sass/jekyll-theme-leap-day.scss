@@ -13,7 +13,7 @@ body {
   font-weight:300;
   margin: 0px;
   padding:0px 0 20px 0px;
-  background: url('background.png') #eae6d1;
+  background: url('../background.png') #eae6d1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,6 +70,7 @@ strong {
 }
 
 .wrapper {
+  padding:10px 20px 30px 40px;
   width:650px;
   margin:0 auto;
   position:relative;
@@ -181,6 +182,15 @@ header {
     margin: 0px;
   }
   
+  
+   span {
+      float:left;
+      line-height:52px;
+      font-size:90%;
+      color:#9d7f0d;
+      text-transform:uppercase;
+      text-shadow:rgba(#fff, 0.2) 0 1px 0;
+    }
   
     #logo {
     position:absolute;
