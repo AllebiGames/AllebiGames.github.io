@@ -71,7 +71,7 @@ strong {
 
 .wrapper {
   padding:10px 20px 30px 40px;
-  width:650px;
+  width:500px;
   margin:0 auto;
   position:relative;
 }
@@ -205,25 +205,35 @@ header {
 
 #mmenu {
   z-index: 100;
-  left:75;
-  right:5%;
+  left:5;
+  right:75%;
   height: 150px;
   margin-left:38px;
   margin-right:-38px;
   position: fixed;
   top: 220px;
-  background: #ffcccc;
-  border: 1px solid #f0b500;
+  background: #303030;
+  border: 1px solid #1d1d1d;
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
   border-radius: 0px 2px 2px 0px;
   padding-right: 10px;
   
     .button {
-    border: 1px solid #dba500;
-    background: linear-gradient(rgb(255, 231, 136), rgb(255, 206, 56));
-    border-radius: 2px;
-    box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.1);
-    background-color: #FFE788;
+   background: #AF0011;
+	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
+  background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
+  background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
+  background: linear-gradient(to top, #AF0011 0%,#820011 100%);
+
+	border-radius:4px;
+  border:1px solid #0D0D0D;
+
+	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+      
+  
     margin-left: 5px;
     padding: 10px 12px;
     margin-top: 6px;
