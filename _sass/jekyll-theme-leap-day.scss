@@ -396,7 +396,7 @@ nav {
 
         a {
           font-weight: bold;
-          color: #b3b45a;
+          color: #e2e5ea;
         }
 
         + .tag-h2 {
@@ -418,10 +418,10 @@ nav {
       &:hover { color: #fff; }
     }
 
-    // .active {
-    //   border-right:solid 4px #39C;
-    //   padding-right:13px;
-    // }
+     .active {
+       border-right:solid 4px #39C;
+       padding-right:13px;
+     }
   }
 }
 
@@ -434,6 +434,22 @@ footer {
   text-align: right;
   line-height: 16px;
 }
+
+
+@media print, screen and (max-width: 720px) 
+{
+  #mmenu {
+ 	width: 70px;	
+ 	height: 70px;
+		
+	&:hover 
+	{
+	  width: 147px;	
+  	  height: auto;
+	}
+ }
+}
+
 
 /*
 @media print, screen and (max-width: 1060px) {
