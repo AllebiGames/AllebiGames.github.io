@@ -419,11 +419,12 @@ nav {
     }
 
      .active {
-       border-right:solid 4px #39C;
-       padding-right:13px;
+       border-right:solid 2px #f50202;
+       padding-right:4px;
      }
   }
 }
+
 
 footer {
   width:180px;
@@ -436,6 +437,7 @@ footer {
 }
 
 
+/*
 @media print, screen and (max-width: 720px) 
 {
   #mmenu {
@@ -449,6 +451,7 @@ footer {
 	}
  }
 }
+*/
 
 
 /*
