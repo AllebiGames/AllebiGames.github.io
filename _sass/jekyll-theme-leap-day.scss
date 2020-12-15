@@ -396,7 +396,7 @@ nav {
 
         a {
           font-weight: bold;
-          color: #333;
+          color: #aaa;
         }
 
         + .tag-h2 {
@@ -413,9 +413,9 @@ nav {
     }
 
     a {
-      color: #666;
+      color: #f66;
 
-      &:hover { color: #999; }
+      &:hover { color: #fff; }
     }
 
     // .active {
