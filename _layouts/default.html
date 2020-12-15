@@ -17,9 +17,8 @@
   
   <body>
       <header>
-        <span id="logo"></span>
         <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        {% if page.description %}
+        {% if page.show_description %}
           <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
         {% endif %}
       </header>
