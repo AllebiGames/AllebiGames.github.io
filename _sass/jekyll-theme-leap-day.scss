@@ -220,6 +220,18 @@ header {
   border-radius: 0px 2px 2px 0px;
   padding-right: 10px;
   
+	centered	
+	{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: 5px;
+	  margin-bottom: 5px;
+	//  position:relative;
+	  width: auto;
+	}
+	
+	
 .center	{
 	  display: block;
 	  margin-left: auto;
