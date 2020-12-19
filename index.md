@@ -24,11 +24,11 @@ Sincerelly  <br>
 
 * * *
 # News feed:
+
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    
+    {%- endif -%}    
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
@@ -45,5 +45,4 @@ Sincerelly  <br>
       </li>
       {%- endfor -%}
     </ul>
-
   {%- endif -%}
