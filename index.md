@@ -1,9 +1,9 @@
 ---
 title: WELCOME
-layout: default
+layout: main
 ---
 
-[Link to another page](./puzzle-kit.md).
+//[Link to another page](./puzzle-kit.md).
 
 # Jigsaw Puzzle  Kit
 
