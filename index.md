@@ -26,7 +26,12 @@ Sincerelly  <br>
 * * *
 # News feed
   {% for post in site.posts %}
-     <a href="{{ post.url }}"> | {{ post.title }} | {{ post.date }}|</a>
+   
+     <a href="{{ post.url }}"> | {{ post.title }} | {{ post.date }}| </a>
+     <li> <a href="{{ post.url }}"> | {{ post.title }} | {{ post.date }}| </a> </li>
+     <ul>
+     <li> <a href="{{ post.url }}"> | {{ post.title }} | {{ post.date }}| </a> </li>
+     </ul>
   {% endfor %}
 
 
