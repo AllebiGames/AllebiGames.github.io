@@ -5,7 +5,7 @@ mailTitle: General questions
 ---
 
 [GitHub](puzzle-kit.md)
-[GitHub](puzzle-kit.html)
+
 
 # Welcome to the *AllebiGames* web portal!
 We're just a humble indie game developers who tries to bring useful game-templates for you.
@@ -26,11 +26,10 @@ Please mail us:  AllebiGames@gmail.com
 <div align="right">  
 Sincerelly 
 </div>
-![Logo](assets/images/allebi_logo_sm.png))
 
-<div align="right"> 
-![Logo](assets/images/allebi_logo_sm.png))
-<img src="assets/images/contact/unity_sm.png" alt="AssetStore">
-</div>
+<img src="ssets/images/allebi_logo_sm.png" alt="drawing" width="100"/>
+
+| ![Logo](assets/images/allebi_logo_sm.png))
+| | ![Logo](assets/images/allebi_logo_sm.png))|
 
 ![Logo](assets/images/allebi_logo_sm.png=100x50))
