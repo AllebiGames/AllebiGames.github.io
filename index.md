@@ -25,12 +25,9 @@ Sincerelly  <br>
 <br>
 * * *
 # News feed
-<ul>
   {% for post in site.posts %}
-    <li>
       | <a href="{{ post.url }}">{{ post.title }}</a> | post.date |
-    </li>
   {% endfor %}
-</ul>
+
 
 ![GitHub Logo](/images/logo.png)
