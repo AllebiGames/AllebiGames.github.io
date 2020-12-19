@@ -1,8 +1,10 @@
 ---
+layout: default
 title: Jigsaw Puzzle Kit
 show_description: true
 description: Documentation
-layout: default
+mailTitle: Question about PuzzleKit
+
 ---
 
 [< MAIN](./index.md)
