@@ -4,6 +4,8 @@ layout: main
 mailTitle: General questions
 ---
 
+[< PUZLZE](./puzzle-kit.md)
+
 # Welcome to the *AllebiGames* web portal!
 We're just a humble indie game developers who tries to bring useful game-templates for you. <br>
 Since 2011 we're here for hundreds of customers and hope to become your reliable partner too!<br>
