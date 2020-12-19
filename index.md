@@ -13,14 +13,14 @@ Since 2011 we're here for hundreds of customers and hope to become your reliable
 You can check our main assets using theis site menu or directly on [Unity Asset Store](https://assetstore.unity.com/publishers/757)
 .
 
-.
 
 .
-
 ## If you need any help:
 Please mail us:  AllebiGames@gmail.com
 **_We'll try to respond as soon as possible, but please note - it can take up to 48h_**
 
 
-<div align="right">  Sincerelly </div>
-![Logo](assets/images/allebi_logo_sm.png)
+<div align="right">  Sincerelly 
+![Logo](assets/images/allebi_logo_sm.png =100))
+  
+</div>
