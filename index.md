@@ -4,7 +4,6 @@ layout: main
 mailTitle: General questions
 ---
 <br>
-
 # Welcome to the *AllebiGames* web portal!
 We're just a humble indie game developers who tries to bring useful game-templates for you. <br>
 Since 2011 we're here for hundreds of customers and hope to become your reliable partner too!<br>
@@ -12,10 +11,9 @@ Since 2011 we're here for hundreds of customers and hope to become your reliable
 
 You can check our main assets using theis site menu or directly on [Unity Asset Store](https://assetstore.unity.com/publishers/757)
 <br>
-<br>
 
 ## If you need any help:
-Please mail us:  AllebiGames@gmail.com
+Please mail us:  AllebiGames@gmail.com <br>
 **_We'll try to respond as soon as possible, but please note - it can take up to 48h_**
 
 ![GitHub Logo](/images/logo.png)
@@ -24,10 +22,12 @@ Sincerelly  <br>
 <img src="assets/images/allebi_logo_sm.png" alt="drawing" width="100"/>
 </div>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
