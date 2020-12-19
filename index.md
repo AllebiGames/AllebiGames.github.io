@@ -3,7 +3,7 @@ title: WELCOME
 layout: main
 mailTitle: General questions
 ---
-<br>
+
 # Welcome to the *AllebiGames* web portal!
 We're just a humble indie game developers who tries to bring useful game-templates for you. <br>
 Since 2011 we're here for hundreds of customers and hope to become your reliable partner too!<br>
@@ -28,7 +28,7 @@ Sincerelly  <br>
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      | <a href="{{ post.url }}">{{ post.title }}</a> | post.date |
     </li>
   {% endfor %}
 </ul>
