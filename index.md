@@ -16,13 +16,14 @@ You can check our main assets using theis site menu or directly on [Unity Asset 
 Please mail us:  AllebiGames@gmail.com <br>
 **_We'll try to respond as soon as possible, but please note - it can take up to 48h_**
 
-![GitHub Logo](/images/logo.png)
 <div align="right">  
 Sincerelly  <br> 
 <img src="assets/images/allebi_logo_sm.png" alt="drawing" width="100"/>
 </div>
 
+
 <br>
+* * *
 # News feed
 <ul>
   {% for post in site.posts %}
@@ -31,3 +32,5 @@ Sincerelly  <br>
     </li>
   {% endfor %}
 </ul>
+
+![GitHub Logo](/images/logo.png)
