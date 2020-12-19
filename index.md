@@ -25,11 +25,12 @@ Please mail us:  AllebiGames@gmail.com
 
 <div align="right">  
 Sincerelly 
-![Logo](assets/images/allebi_logo_sm.png))
 </div>
+![Logo](assets/images/allebi_logo_sm.png))
 
 <div align="right"> 
 ![Logo](assets/images/allebi_logo_sm.png))
+<img src="assets/images/contact/unity_sm.png" alt="AssetStore">
 </div>
 
-![Logo](assets/images/allebi_logo_sm.png =100x50))
+![Logo](assets/images/allebi_logo_sm.png=100x50))
