@@ -71,5 +71,3 @@ Sincerelly  <br>
     {%- endif %}
 
   {%- endif -%}
-
-![GitHub Logo](/images/logo.png)
