@@ -46,9 +46,12 @@
         
 
           <a href="/index.html" class="button"> &#8592  Back </a>             
+        
+        {% if page.mailTitle %}
           <a href="mailto:AllebiGames@gmail.com?subject={{ page.mailTitle }}" target="_blank" rel="noopener noreferrer" class="button">
            <img src="/assets/images/contact/mail_sm.png" alt="Mail to"> Support
           </a>
+        {%- endif %}
         
         <br>         
         <span>
