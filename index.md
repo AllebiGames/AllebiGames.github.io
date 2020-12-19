@@ -15,7 +15,9 @@ You can check our main assets using theis site menu or directly on [Unity Asset 
 
 ## If you need any help:
 Please mail us: 
-AllebiGames@gmail.com <br>
+ href=""mailto:AllebiGames@gmail.com?subject={{ page.mailTitle }}" class="previous-page"> AllebiGames@gmail.com </a>
+AllebiGames@gmail.com 
+<br>
 **_We'll try to respond as soon as possible, but please note - it can take up to 48h_**
 <div align="right">  
 Sincerelly  <br> 
