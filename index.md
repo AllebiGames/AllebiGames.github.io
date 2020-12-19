@@ -21,16 +21,9 @@ Sincerelly  <br>
 <img src="assets/images/allebi_logo_sm.png" alt="drawing" width="100"/>
 </div>
 
-<br>
+
 * * *
-# News feed
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
-
+# News feed:
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
