@@ -15,7 +15,6 @@ Since 2011 we're here for hundreds of customers and hope to become your reliable
 You can check our main assets using theis site menu or directly on [Unity Asset Store](https://assetstore.unity.com/publishers/757)
 
 <br>
-
 <br>
 
 ## If you need any help:
@@ -24,12 +23,12 @@ Please mail us:  AllebiGames@gmail.com
 
 
 <div align="right">  
-Sincerelly 
+Sincerelly   
+<img src="assets/images/allebi_logo_sm.png" alt="drawing" width="100"/>
 </div>
 
-<img src="assets/images/allebi_logo_sm.png" alt="drawing" width="100"/>
 
 
-| | ![Logo](assets/images/allebi_logo_sm.png))
+| | ![Logo](assets/images/allebi_logo_sm.png)
 
 ![Logo](assets/images/allebi_logo_sm.png=100x50)
