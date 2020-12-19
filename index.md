@@ -23,12 +23,7 @@ Please mail us:  AllebiGames@gmail.com
 
 
 <div align="right">  
-Sincerelly   
+Sincerelly  <br> 
 <img src="assets/images/allebi_logo_sm.png" alt="drawing" width="100"/>
 </div>
 
-
-
-| | ![Logo](assets/images/allebi_logo_sm.png)
-
-![Logo](assets/images/allebi_logo_sm.png=100x50)
