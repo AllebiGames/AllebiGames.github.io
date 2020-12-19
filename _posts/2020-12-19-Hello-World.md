@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: general
 title: Hello new site!
 date: 2020-12-19
 published: true
