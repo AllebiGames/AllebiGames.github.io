@@ -462,21 +462,28 @@ footer {
 }
 
 
-/*
+
 @media print, screen and (max-width: 720px) 
 {
   #mmenu {
- 	width: 70px;	
- 	height: 70px;
-		
-	&:hover 
-	{
-	  width: 147px;	
-  	  height: auto;
-	}
- }
+	  display: none;
+ 	}
+	
+ footer{
+  	display: none;
+       }
 }
-*/
+
+@media print, screen and (max-height: 640px) 
+{
+  #mmenu {
+	  position: relative;
+ 	}
+	
+ footer{
+  	display: none;
+       }
+}
 
 
 /*
