@@ -466,7 +466,10 @@ footer {
 @media print, screen and (max-width: 720px) 
 {
   #mmenu {
-	  display: none;
+	 // display: none;
+	  position: relative;
+	  width: 100%;
+  	  height: 20%;
  	}
 	
  footer{
@@ -488,6 +491,8 @@ footer {
 {
   #mmenu {
 	  position: relative;
+	  width: 147px;	
+  	  height: 0;
  	}
 	
  footer{
