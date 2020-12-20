@@ -472,6 +472,16 @@ footer {
  footer{
   	display: none;
        }
+	
+.wrapper {
+	  margin-top: 0px;
+	  margin-right: 10px;
+	  margin-left: 10px;
+	}
+	
+ header {
+  	min-height: 40px;
+	}
 }
 
 @media print, screen and (max-height: 640px) 
@@ -483,6 +493,16 @@ footer {
  footer{
   	display: none;
        }
+	
+.wrapper {
+	  margin-top: 0px;
+	  margin-right: 10px;
+	  margin-left: 10px;
+	}
+	
+header {
+  	min-height: 30px;
+	}
 }
 
 
